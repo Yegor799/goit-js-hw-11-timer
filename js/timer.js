@@ -45,8 +45,10 @@ class Timer {
 
 const timer = new Timer({
   selector: "#timer-1",
-  targetDate: new Date("Jan 25, 2021"),
+  targetDate: new Date("Jan 29, 2030"),
 });
+
+console.log(timer)
 
 timer.start();
 
